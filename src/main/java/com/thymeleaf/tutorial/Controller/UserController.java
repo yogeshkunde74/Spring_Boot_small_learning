@@ -13,7 +13,7 @@ public class UserController {
 
     @GetMapping("/show")
     public String show(Model model){
-        String channel = "Mai or Tom";
+        String channel = "Admin";
         model.addAttribute("name", channel);
         return "show";
     }

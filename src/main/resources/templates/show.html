@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Yogesh_Kunde</h1>
+    <h1>Yogesh_Kunde <span th:if="${name == 'Admin'}">You have all access</span> </h1>
     <h3 th:text="${name}"></h3>
 </body>
 </html>
